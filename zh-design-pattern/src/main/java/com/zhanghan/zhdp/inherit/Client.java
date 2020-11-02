@@ -19,10 +19,21 @@ public class Client {
         Animal xiaohua = new Cat("小花");
         list.add(xiaohua);
         Animal xiaoer = new Dog("小二");
+        xiaoer.setShoutNum(5);
         list.add(xiaoer);
 
         for (Animal animal : list) {
             System.out.println(animal.shout());
+        }
+
+        List<IChange> iChangeList = new ArrayList<>();
+        MachineCat machineCat = new MachineCat("叮当");
+        iChangeList.add(machineCat);
+        WheezingDog wheezingDog = new WheezingDog("哮天犬");
+        iChangeList.add(wheezingDog);
+
+        for (IChange iChange : iChangeList) {
+            System.out.println(iChange.ChangeThing("变出各种东西"));
         }
     }
 }

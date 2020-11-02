@@ -1,6 +1,6 @@
 package com.zhanghan.zhdp.inherit;
 
-public class Animal {
+public abstract class Animal {
 
     protected String name;
 
@@ -38,8 +38,6 @@ public class Animal {
         return "我的名字叫" + name + " " + result;
     }
 
-    protected String getShoutSound() {
-        return "";
-    }
+    protected abstract String getShoutSound();
 
 }
