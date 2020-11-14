@@ -29,11 +29,11 @@ public class Client {
         List<IChange> iChangeList = new ArrayList<>();
         MachineCat machineCat = new MachineCat("叮当");
         iChangeList.add(machineCat);
-        WheezingDog wheezingDog = new WheezingDog("哮天犬");
+        ZhuBaJieDog wheezingDog = new ZhuBaJieDog("猪八戒");
         iChangeList.add(wheezingDog);
 
         for (IChange iChange : iChangeList) {
-            System.out.println(iChange.ChangeThing("变出各种东西"));
+            System.out.println(iChange.changeThing("变出各种东西"));
         }
     }
 }

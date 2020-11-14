@@ -19,7 +19,7 @@ public abstract class Animal {
     }
 
     public Animal() {
-        this.name = "無名";
+        this.name = "无名";
     }
 
     public void setShoutNum(int shoutNum) {

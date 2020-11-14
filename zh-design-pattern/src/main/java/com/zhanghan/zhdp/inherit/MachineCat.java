@@ -7,7 +7,7 @@ public class MachineCat extends Cat implements IChange {
     }
 
     @Override
-    public String ChangeThing(String thing) {
+    public String changeThing(String thing) {
         return super.shout() + " 我有万能的口袋,我可变出:" + thing;
     }
 }
