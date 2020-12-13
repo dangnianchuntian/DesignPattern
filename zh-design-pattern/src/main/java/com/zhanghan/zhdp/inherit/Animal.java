@@ -38,6 +38,6 @@ public abstract class Animal {
         return "我的名字叫" + name + " " + result;
     }
 
-    protected abstract String getShoutSound();
+    public abstract String getShoutSound();
 
 }
